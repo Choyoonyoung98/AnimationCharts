@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		1EB38C9131FE62A044D296FA38AAA4D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		236F9AD210E5EF6251295509B8DE38A7 /* AnimationCharts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 494295CB1C47E067B29F746315177755 /* AnimationCharts-dummy.m */; };
+		1F1201916ABBECADE80FDB361F5A526D /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F2BB0DA493F683201A8F857BF310A8 /* PieChartView.swift */; };
 		39749C95747D5FFB348E3B0CE78DFC88 /* Pods-AnimationCharts_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F72862B2EE7F2A2D4A715768BBD76E26 /* Pods-AnimationCharts_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43665AF396218781C66EDA7605461A89 /* AnimationCharts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ED976A3F3D6048E6B1B761419AA64A /* AnimationCharts-dummy.m */; };
 		44E91E834087F04E1767D04EBA00755E /* Pods-AnimationCharts_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C97E1945477356350C056F69A4E0CBD5 /* Pods-AnimationCharts_Tests-dummy.m */; };
-		5322A5329D78408E263A28C54C464165 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE09AB3D8F0F25EF76D298BF930929 /* ReplaceMe.swift */; };
-		80898CD6165B146DB08ED95AADA78F5F /* AnimationCharts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69BFC23182B8AACB2CA6B6015130492B /* AnimationCharts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59BCD751BEC33E8D611E6C8BDA027C9D /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58167C508F359274FFCA027D24822B99 /* LineChartView.swift */; };
+		8A622D7122FDC3982D9F3351DED06BFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		929035DA3660B948236FF3AEE514E569 /* AnimationCharts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B764556EBF0FF617975ACB283C38D75 /* AnimationCharts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		978E9534D52B11DEF8815C391927B047 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		B5DE5C61BB7DB878B3BB490F20B80236 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CFED2456B8A4BB6FCAB878B8A9140E9E /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725E9DA31A5D4004DB51F1033538E5C4 /* BarChartView.swift */; };
 		D55AE3E3478074CD40E78E867EDBBEED /* Pods-AnimationCharts_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E3DF0C4F3DF52668A4873F02982945F /* Pods-AnimationCharts_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D82348943CDE7A8109407418B61AC8DB /* Pods-AnimationCharts_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7765BE3CCB9C703DBD5F6CF8B6F12475 /* Pods-AnimationCharts_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -37,38 +39,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008A0DA3C7CDA9C83991C66EA56E65FC /* AnimationCharts.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AnimationCharts.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		15315C5ADA0D1EA62C4152CA6E69A21A /* Pods-AnimationCharts_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AnimationCharts_Tests.modulemap"; sourceTree = "<group>"; };
-		299167AA7FD3963DE5EB544614B21450 /* AnimationCharts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimationCharts-prefix.pch"; sourceTree = "<group>"; };
+		2B764556EBF0FF617975ACB283C38D75 /* AnimationCharts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimationCharts-umbrella.h"; sourceTree = "<group>"; };
+		2F2F1D8036409633514B71A8C3356D3D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4194AD3BDCDD93FB256BF26275942E7C /* Pods_AnimationCharts_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AnimationCharts_Example.framework; path = "Pods-AnimationCharts_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		494295CB1C47E067B29F746315177755 /* AnimationCharts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnimationCharts-dummy.m"; sourceTree = "<group>"; };
+		4BD206C84F08F91E267D21D91E1CDA85 /* AnimationCharts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AnimationCharts-Info.plist"; sourceTree = "<group>"; };
 		5633B76687F72F845D1A543BD823608C /* Pods-AnimationCharts_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimationCharts_Tests-Info.plist"; sourceTree = "<group>"; };
+		58167C508F359274FFCA027D24822B99 /* LineChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineChartView.swift; path = AnimationCharts/Classes/LineChartView.swift; sourceTree = "<group>"; };
+		5A3CC59A0D6514713C6D8D7D8D47D82A /* AnimationCharts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AnimationCharts.modulemap; sourceTree = "<group>"; };
 		5E3DF0C4F3DF52668A4873F02982945F /* Pods-AnimationCharts_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnimationCharts_Example-umbrella.h"; sourceTree = "<group>"; };
-		69BFC23182B8AACB2CA6B6015130492B /* AnimationCharts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimationCharts-umbrella.h"; sourceTree = "<group>"; };
+		725E9DA31A5D4004DB51F1033538E5C4 /* BarChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartView.swift; path = AnimationCharts/Classes/BarChartView.swift; sourceTree = "<group>"; };
 		7406FA78F4DB7252ADB742CDE35D48E3 /* Pods-AnimationCharts_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimationCharts_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		743D8FEE5E1678AFC2FE92F6BAE23579 /* Pods-AnimationCharts_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnimationCharts_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7765BE3CCB9C703DBD5F6CF8B6F12475 /* Pods-AnimationCharts_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnimationCharts_Example-dummy.m"; sourceTree = "<group>"; };
 		7A048F2F2ED6A85425C519C1CB16D53A /* Pods-AnimationCharts_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnimationCharts_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8762C677405939518265365FC192741B /* AnimationCharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimationCharts.release.xcconfig; sourceTree = "<group>"; };
+		85F452925DB46C81377EC0BB5CAF76A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		87E55A793789E50184BE2E457B2AA31C /* Pods_AnimationCharts_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AnimationCharts_Tests.framework; path = "Pods-AnimationCharts_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BCB0F879C8CEF4F54A48ED095F91882 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		88F2BB0DA493F683201A8F857BF310A8 /* PieChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartView.swift; path = AnimationCharts/Classes/PieChartView.swift; sourceTree = "<group>"; };
 		914AA40A2C2B31E00C381F4B66691868 /* Pods-AnimationCharts_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnimationCharts_Example-frameworks.sh"; sourceTree = "<group>"; };
 		91D44D1FDBE3ACC276567ABDCADCC787 /* Pods-AnimationCharts_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AnimationCharts_Example.modulemap"; sourceTree = "<group>"; };
 		938F8E3134AE69CB15BB43D37EF4AD71 /* Pods-AnimationCharts_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimationCharts_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		993D81D971A3190D769B964328799480 /* Pods-AnimationCharts_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimationCharts_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9957347914CD243757E7BDEE30C02CE5 /* AnimationCharts.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AnimationCharts.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99ED976A3F3D6048E6B1B761419AA64A /* AnimationCharts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnimationCharts-dummy.m"; sourceTree = "<group>"; };
 		9B8F7B53A8DA0A857C35665869A9C9C2 /* Pods-AnimationCharts_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimationCharts_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A85C3F0DB916B92B35D627D22BCB1123 /* AnimationCharts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AnimationCharts.framework; path = AnimationCharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96BB7A04744855413043945BAC3CB6B /* Pods-AnimationCharts_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimationCharts_Example-Info.plist"; sourceTree = "<group>"; };
-		B57342B06B70F4D0C9B9FF46DDCE8528 /* AnimationCharts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimationCharts.debug.xcconfig; sourceTree = "<group>"; };
 		C28DCAAD6829B66B0197DDB461662996 /* Pods-AnimationCharts_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimationCharts_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C97E1945477356350C056F69A4E0CBD5 /* Pods-AnimationCharts_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnimationCharts_Tests-dummy.m"; sourceTree = "<group>"; };
-		CBCE09AB3D8F0F25EF76D298BF930929 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AnimationCharts/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		D90DF4373895C70500A44F3966895A8D /* AnimationCharts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AnimationCharts-Info.plist"; sourceTree = "<group>"; };
+		CD3B3249BAA85FBBBC60E85D97A0E345 /* AnimationCharts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimationCharts.debug.xcconfig; sourceTree = "<group>"; };
+		D1D8A0104C0BBED716D54F6900ACC643 /* AnimationCharts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimationCharts-prefix.pch"; sourceTree = "<group>"; };
 		D945AF0AA28907AC9D07B1468ED7C854 /* Pods-AnimationCharts_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimationCharts_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F2AE1CED9BAB5DFAEA6B04BF9D612066 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F476E9CE33BED3B6D751EC4DD4C5FFDD /* AnimationCharts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AnimationCharts.modulemap; sourceTree = "<group>"; };
+		E93955F674138DEB68C11FF00DAF6F2D /* AnimationCharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimationCharts.release.xcconfig; sourceTree = "<group>"; };
 		F72862B2EE7F2A2D4A715768BBD76E26 /* Pods-AnimationCharts_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnimationCharts_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,19 +85,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1A0F223D7D53475537F3722A7B9613BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A622D7122FDC3982D9F3351DED06BFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5B466060EB4D35FCB77E6952609D9B81 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				978E9534D52B11DEF8815C391927B047 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A43F006B1E2CDA08CFD627720FC6E9B6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B5DE5C61BB7DB878B3BB490F20B80236 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,16 +114,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		283B02E1C005770B2C80181E4D53675D /* Support Files */ = {
+		41066FFF8416384702B5BCF7A69640F8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F476E9CE33BED3B6D751EC4DD4C5FFDD /* AnimationCharts.modulemap */,
-				494295CB1C47E067B29F746315177755 /* AnimationCharts-dummy.m */,
-				D90DF4373895C70500A44F3966895A8D /* AnimationCharts-Info.plist */,
-				299167AA7FD3963DE5EB544614B21450 /* AnimationCharts-prefix.pch */,
-				69BFC23182B8AACB2CA6B6015130492B /* AnimationCharts-umbrella.h */,
-				B57342B06B70F4D0C9B9FF46DDCE8528 /* AnimationCharts.debug.xcconfig */,
-				8762C677405939518265365FC192741B /* AnimationCharts.release.xcconfig */,
+				5A3CC59A0D6514713C6D8D7D8D47D82A /* AnimationCharts.modulemap */,
+				99ED976A3F3D6048E6B1B761419AA64A /* AnimationCharts-dummy.m */,
+				4BD206C84F08F91E267D21D91E1CDA85 /* AnimationCharts-Info.plist */,
+				D1D8A0104C0BBED716D54F6900ACC643 /* AnimationCharts-prefix.pch */,
+				2B764556EBF0FF617975ACB283C38D75 /* AnimationCharts-umbrella.h */,
+				CD3B3249BAA85FBBBC60E85D97A0E345 /* AnimationCharts.debug.xcconfig */,
+				E93955F674138DEB68C11FF00DAF6F2D /* AnimationCharts.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/AnimationCharts";
@@ -141,6 +145,16 @@
 			path = "Target Support Files/Pods-AnimationCharts_Tests";
 			sourceTree = "<group>";
 		};
+		6641F7093AFB473296FB583C2CE67A74 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9957347914CD243757E7BDEE30C02CE5 /* AnimationCharts.podspec */,
+				85F452925DB46C81377EC0BB5CAF76A9 /* LICENSE */,
+				2F2F1D8036409633514B71A8C3356D3D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		83FF80469ED4C397FC86D2FD3880E338 /* Pods-AnimationCharts_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +172,14 @@
 			path = "Target Support Files/Pods-AnimationCharts_Example";
 			sourceTree = "<group>";
 		};
+		8533F9F5A65524C7E7107B144F029F21 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B97A05048D05012CF0A4C374AE0A8686 /* AnimationCharts */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		868B09F9F08137807441EBBB41398D5F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,33 +189,17 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8C3E7AC53D0465BD197665759A138CA2 /* AnimationCharts */ = {
+		B97A05048D05012CF0A4C374AE0A8686 /* AnimationCharts */ = {
 			isa = PBXGroup;
 			children = (
-				CBCE09AB3D8F0F25EF76D298BF930929 /* ReplaceMe.swift */,
-				BA1B6C5F1EAA037BC0E76B5ED094EE1E /* Pod */,
-				283B02E1C005770B2C80181E4D53675D /* Support Files */,
+				725E9DA31A5D4004DB51F1033538E5C4 /* BarChartView.swift */,
+				58167C508F359274FFCA027D24822B99 /* LineChartView.swift */,
+				88F2BB0DA493F683201A8F857BF310A8 /* PieChartView.swift */,
+				6641F7093AFB473296FB583C2CE67A74 /* Pod */,
+				41066FFF8416384702B5BCF7A69640F8 /* Support Files */,
 			);
 			name = AnimationCharts;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		8C3F73066071ACAE1401F2E40E1E4111 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8C3E7AC53D0465BD197665759A138CA2 /* AnimationCharts */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		BA1B6C5F1EAA037BC0E76B5ED094EE1E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				008A0DA3C7CDA9C83991C66EA56E65FC /* AnimationCharts.podspec */,
-				8BCB0F879C8CEF4F54A48ED095F91882 /* LICENSE */,
-				F2AE1CED9BAB5DFAEA6B04BF9D612066 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -208,7 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				8C3F73066071ACAE1401F2E40E1E4111 /* Development Pods */,
+				8533F9F5A65524C7E7107B144F029F21 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				1E595823A6323381743889372C4C265A /* Products */,
 				868B09F9F08137807441EBBB41398D5F /* Targets Support Files */,
@@ -226,11 +232,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		17F4BE0DE82600803710FC1728ECC364 /* Headers */ = {
+		0FBE0A031A53DD5263526E8B2553D642 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80898CD6165B146DB08ED95AADA78F5F /* AnimationCharts-umbrella.h in Headers */,
+				929035DA3660B948236FF3AEE514E569 /* AnimationCharts-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,12 +299,12 @@
 		};
 		F78901B563BAD7218DF681AA6DC5E80A /* AnimationCharts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A9A25CBD5CF1E7307F06C97F04EF967 /* Build configuration list for PBXNativeTarget "AnimationCharts" */;
+			buildConfigurationList = 38F936790AAE89A8535CD2A8D1F481D4 /* Build configuration list for PBXNativeTarget "AnimationCharts" */;
 			buildPhases = (
-				17F4BE0DE82600803710FC1728ECC364 /* Headers */,
-				8FD110883C492FAAFA56EFBBE8C8D05F /* Sources */,
-				A43F006B1E2CDA08CFD627720FC6E9B6 /* Frameworks */,
-				EC7F4A299F8E698E4E78F07AEAC2C844 /* Resources */,
+				0FBE0A031A53DD5263526E8B2553D642 /* Headers */,
+				00DCCE1C6E10E75E13044DA49BBE1673 /* Sources */,
+				1A0F223D7D53475537F3722A7B9613BD /* Frameworks */,
+				D6412A61F034EFB6604A394258DB6AB6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -353,7 +359,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC7F4A299F8E698E4E78F07AEAC2C844 /* Resources */ = {
+		D6412A61F034EFB6604A394258DB6AB6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,20 +369,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		00DCCE1C6E10E75E13044DA49BBE1673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43665AF396218781C66EDA7605461A89 /* AnimationCharts-dummy.m in Sources */,
+				CFED2456B8A4BB6FCAB878B8A9140E9E /* BarChartView.swift in Sources */,
+				59BCD751BEC33E8D611E6C8BDA027C9D /* LineChartView.swift in Sources */,
+				1F1201916ABBECADE80FDB361F5A526D /* PieChartView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		300DF9F575EDC58E4CC039604C32066C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D82348943CDE7A8109407418B61AC8DB /* Pods-AnimationCharts_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8FD110883C492FAAFA56EFBBE8C8D05F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				236F9AD210E5EF6251295509B8DE38A7 /* AnimationCharts-dummy.m in Sources */,
-				5322A5329D78408E263A28C54C464165 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,9 +515,9 @@
 			};
 			name = Release;
 		};
-		77509DD19982392EA4A2AE3B0B19894C /* Release */ = {
+		8E24D5D57E4FB75F8594785E3EFF2781 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8762C677405939518265365FC192741B /* AnimationCharts.release.xcconfig */;
+			baseConfigurationReference = CD3B3249BAA85FBBBC60E85D97A0E345 /* AnimationCharts.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -533,11 +541,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -663,37 +670,6 @@
 			};
 			name = Debug;
 		};
-		D2CF5A8BB8DD436CF6AF68A31623EFA1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B57342B06B70F4D0C9B9FF46DDCE8528 /* AnimationCharts.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AnimationCharts/AnimationCharts-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AnimationCharts/AnimationCharts-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AnimationCharts/AnimationCharts.modulemap";
-				PRODUCT_MODULE_NAME = AnimationCharts;
-				PRODUCT_NAME = AnimationCharts;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		EEF9CBD9FB8C55BB3F45124B51C4FF55 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7406FA78F4DB7252ADB742CDE35D48E3 /* Pods-AnimationCharts_Tests.debug.xcconfig */;
@@ -727,9 +703,50 @@
 			};
 			name = Debug;
 		};
+		F0959A20771660B90066E6C0F87B4DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E93955F674138DEB68C11FF00DAF6F2D /* AnimationCharts.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AnimationCharts/AnimationCharts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnimationCharts/AnimationCharts-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AnimationCharts/AnimationCharts.modulemap";
+				PRODUCT_MODULE_NAME = AnimationCharts;
+				PRODUCT_NAME = AnimationCharts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		38F936790AAE89A8535CD2A8D1F481D4 /* Build configuration list for PBXNativeTarget "AnimationCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E24D5D57E4FB75F8594785E3EFF2781 /* Debug */,
+				F0959A20771660B90066E6C0F87B4DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -744,15 +761,6 @@
 			buildConfigurations = (
 				EEF9CBD9FB8C55BB3F45124B51C4FF55 /* Debug */,
 				3FA7035CA0E97FAD502DB18A088CC8ED /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9A9A25CBD5CF1E7307F06C97F04EF967 /* Build configuration list for PBXNativeTarget "AnimationCharts" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D2CF5A8BB8DD436CF6AF68A31623EFA1 /* Debug */,
-				77509DD19982392EA4A2AE3B0B19894C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

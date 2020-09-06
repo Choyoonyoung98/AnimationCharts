@@ -1,7 +1,7 @@
 {
   "name": "AnimationCharts",
   "version": "0.1.0",
-  "summary": "A short description of AnimationCharts.",
+  "summary": "Animation이 추가된 다양한 차트를 쉽고 간편하게 사용할 수 있는 차트 라이브러리입니다",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Choyoonyoung98/AnimationCharts",
   "license": {

@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         
         let lineChartValues =  [15, 10, 12, 5, 10, 7, 15]
         let dates = ["1","2","3","4","5","6","7"]
-        let lineChartView = Line
+        let lineChartView = 
             
             LineChartView(frame: lineChartFrame, values: lineChartValues, dates: dates, animated: true)
         lineChartView.center = CGPoint(x: self.view1.frame.size.width / 2, y: self.view1.frame.size.height / 2)
