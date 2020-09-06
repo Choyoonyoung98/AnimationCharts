@@ -1,0 +1,22 @@
+{
+  "name": "AnimationCharts",
+  "version": "0.1.0",
+  "summary": "A short description of AnimationCharts.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Choyoonyoung98/AnimationCharts",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Choyoonyoung98": "yoon980208@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Choyoonyoung98/AnimationCharts.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AnimationCharts/Classes/**/*"
+}

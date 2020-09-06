@@ -1,0 +1,16 @@
+PODS:
+  - AnimationCharts (0.1.0)
+
+DEPENDENCIES:
+  - AnimationCharts (from `../`)
+
+EXTERNAL SOURCES:
+  AnimationCharts:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnimationCharts: 9ba7fab56f7fba5bf2094ba148e23c1eeea1b75c
+
+PODFILE CHECKSUM: 87b3aef3e7a4a87159ff677432abda4330f8db1e
+
+COCOAPODS: 1.9.1

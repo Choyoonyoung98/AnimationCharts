@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AnimationCharts_Example' do
+  pod 'AnimationCharts', :path => '../'
+
+  target 'AnimationCharts_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

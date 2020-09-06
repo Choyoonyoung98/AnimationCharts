@@ -1,0 +1,6 @@
+framework module Pods_AnimationCharts_Example {
+  umbrella header "Pods-AnimationCharts_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
